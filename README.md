@@ -1,4 +1,9 @@
-# hospital-readmissi
+# Predicting Diabetes Risk Using Machine Learning in R
+
+This project explores the **Pima Hospital Diabetes dataset** to predict the likelihood of diabetes based on key medical attributes such as glucose level, BMI, and age.  
+It demonstrates a complete **machine learning pipeline in R** — including data cleaning, exploratory analysis, model training, and performance evaluation using the `tidymodels` framework.  
+The final logistic regression model achieved an **AUC of approximately 0.82**, highlighting its potential for early risk detection and clinical decision support.
+
 A complete end-to-end **data analysis and modeling project in R** using the Pima Indians Diabetes dataset as a case study for **hospital readmission prediction**.  
 This project demonstrates how to clean and explore medical data, build a logistic regression model using `tidymodels`, and visualize key insights such as ROC curves, confusion matrices, and feature importance.  
 The model achieved a strong **AUC (~0.82)**, showing good predictive performance for identifying diabetic cases.  
