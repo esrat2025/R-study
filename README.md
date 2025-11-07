@@ -11,18 +11,28 @@ All steps are reproducible — from data loading to visualization and model eval
 <img src="plots/confusion_matrix.png" width="420">  
 <img src="plots/feature_importance_logit.png" width="420">
 
-<img src="plots/feature_importance_logit.png" width="420">
-
 ## Folder structure
 
 ## How to run
 
-```r
 source("R/00_get_data.R")   # generate pima_diabetes.csv into data/raw
 source("R/01_clean.R")      # create data/processed/clean.csv
 source("R/02_eda.R")        # save EDA plots to /plots
 source("R/03_model.R")      # train logistic model, print ROC AUC & accuracy
 source("R/04_insights.R")   # save ROC curve, confusion matrix, feature importance
 
+## 🛠️ Skills & Tools Used
+
+| Category | Tools / Packages |
+|-----------|------------------|
+| **Language** | R (base R, tidyverse) |
+| **Data Wrangling & Cleaning** | dplyr, janitor, tidyr, lubridate |
+| **Exploratory Data Analysis (EDA)** | ggplot2, GGally, skimr, patchwork |
+| **Modeling Framework** | tidymodels (parsnip, recipes, workflows, rsample, yardstick) |
+| **Model Type** | Logistic Regression (binary classification) |
+| **Evaluation Metrics** | ROC-AUC, accuracy, confusion matrix |
+| **Visualization & Reporting** | ggplot2, yardstick, R Markdown / Quarto-ready outputs |
+| **Version Control & Collaboration** | Git, GitHub Desktop |
+| **Reproducibility** | R 4.x, here package for paths, script-based workflow |
 
 
