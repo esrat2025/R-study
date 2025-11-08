@@ -40,24 +40,13 @@ source("R/04_insights.R")   # save ROC curve, confusion matrix, feature importan
 | **Version Control & Collaboration** | Git, GitHub Desktop |
 | **Reproducibility** | R 4.x, here package for paths, script-based workflow |
 
-Results
-Metric	Value
-Accuracy	0.78
-ROC AUC	0.82
-Sensitivity (Recall)	0.76
-Specificity	0.80
+| **Metric**              | **Score** |
+| ----------------------- | --------- |
+| Accuracy                | **0.78**  |
+| ROC–AUC                 | **0.82**  |
+| Sensitivity (Recall)    | **0.76**  |
+| Specificity             | **0.80**  |
 
-The logistic regression model performed well on the test data, achieving a balanced performance between true positive and true negative rates.
-
-Key Insights
-
-Glucose level is the most influential predictor for diabetes risk.
-
-BMI and Age also have strong positive associations with diabetes likelihood.
-
-The logistic regression model provides an interpretable baseline model that can be easily extended with regularization or tree-based methods (e.g., Random Forest).
-
-This workflow can be generalized to other clinical risk prediction problems.
-
+The logistic regression model achieved strong overall performance, maintaining a good balance between correctly identifying diabetic cases (sensitivity) and correctly rejecting non-diabetic cases (specificity).
 
 
